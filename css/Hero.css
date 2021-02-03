@@ -1,0 +1,53 @@
+.hero {
+  background-image: url(../../images/pexels-vincent-gerbouin-1172518.jpg);
+  height: 90vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.hero .herotext {
+  color: #fff;
+}
+
+.hero .herotext h1 {
+  font-size: 100px;
+  letter-spacing: 2px;
+  line-height: 1;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.44);
+}
+
+.hero .herotext p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-shadow: 0px 5px 7px rgba(0, 0, 0, 0.44);
+}
+
+.hero .herotext a {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #e44867;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -webkit-box-shadow: 3px 9px 5px 2px rgba(0, 0, 0, 0.75);
+          box-shadow: 3px 9px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+.hero .herotext a:hover {
+  background-color: #d92045;
+}

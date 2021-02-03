@@ -1,0 +1,33 @@
+.header {
+  background-color: #fff;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px;
+  -webkit-box-shadow: -1px 14px 14px -15px rgba(0, 0, 0, 0.52);
+          box-shadow: -1px 14px 14px -15px rgba(0, 0, 0, 0.52);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  color: #e44867;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navbar li {
+  list-style: none;
+  display: inline;
+  margin-right: 12px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}

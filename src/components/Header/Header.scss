@@ -1,0 +1,28 @@
+.header {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    box-shadow: -1px 14px 14px -15px rgba(0, 0, 0, 0.52);
+    align-items: center;
+}
+
+.logo {
+    color: #e44867;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar {
+    li {
+        list-style: none;
+        display: inline;
+        margin-right: 12px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
