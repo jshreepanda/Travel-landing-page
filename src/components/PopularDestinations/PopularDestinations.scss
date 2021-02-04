@@ -1,0 +1,66 @@
+.Populardestination {
+    background-color: pink;
+    padding: 100px 50px;
+
+    @media (max-width: 550px) {
+        padding: 60px 15px;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1000px;
+        text-align: center;
+    }
+}
+
+.textarea {
+    max-width: 600px;
+    margin: 0 auto 60px;
+
+    h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+.imagegallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .image {
+        margin-bottom: 15px;
+        position: relative;
+        transition: transform 0.3s linear;
+        width: 30%;
+
+        @media (max-width: 900px) {
+            width: 48%;
+        }
+
+        @media (max-width: 550px) {
+            width: 100%;
+        }
+
+        &:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s linear;
+        }
+
+        span {
+            position: absolute;
+            bottom: 18px;
+            left: 18px;
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+}

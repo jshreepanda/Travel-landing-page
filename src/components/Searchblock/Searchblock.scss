@@ -5,18 +5,46 @@
     justify-content: center;
     align-items: center;
 
+    @media (max-width: 1115px) {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
     .field {
         margin-right: 20px;
         padding: 10px;
         border: 1px solid gray;
+        outline: none;
         background: transparent;
         color: gray;
         font-size: 16px;
+
+        @media (max-width: 1115px) {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 785px) {
+            margin: 0 auto 15px auto;
+            display: block;
+            width: 80%;
+        }
+
+        @media (max-width: 550px) {
+            width: 100%;
+        }
     }
 
     h2 {
         color: #fff;
         margin-right: 20px;
+        font-size: 30px;
+        letter-spacing: 2px;
+
+        @media (max-width: 1115px) {
+            text-align: center;
+            margin: 0 0 20px;
+        }
     }
 
     .btn {
