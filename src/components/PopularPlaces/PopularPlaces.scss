@@ -1,0 +1,84 @@
+.PopularPlaces {
+    background-color: yellowgreen;
+    padding: 100px 50px;
+
+    @media (max-width: 550px) {
+        padding: 60px 15px;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+        max-width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.textarea {
+    text-align: center;
+
+    h2 {
+        margin-bottom: 30px;
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+.placesGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .singlePlace {
+        background-color: #fff;
+        margin-bottom: 30px;
+    }
+
+    .imageBox {
+        max-width: 315px;
+        position: relative;
+
+        span {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+            background-color: #e44867;
+            padding: 3px 10px;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 13px;
+        }
+    }
+
+    .image {
+        position: relative;
+        width: 100%;
+        height: 205px;
+        object-fit: cover;
+        display: block;
+
+        @media (max-width: 900px) {
+            width: 48%;
+        }
+
+        @media (max-width: 550px) {
+            width: 100%;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    .textBox {
+        padding: 10px;
+    }
+}
+
+.buttonHolder {
+    width: 100%;
+    text-align: center;
+}
