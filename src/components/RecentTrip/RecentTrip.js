@@ -6,24 +6,24 @@ import image3 from '../../images/blog3.jpg'
 
 const RecentTrip = () => {
     return (
-        <div className="RecentTrip">
+        <div className="RecentTrip" id="stories">
             <div className="wrapper">
-                <h3 className='Title'>Recent Trips</h3>
+                <h3 className='Title'>Travellers' Stories</h3>
                 <div className="Journies">
                     <div className="SingleJourney">
                         <img className='image' src={image1} alt="abc" />
                         <span>Oct 12, 2019</span>
-                        <a href="/"><h3>Jobs fill your pockets, adventures fill your soul</h3></a>
+                        <h3> <a href="/">Jobs fill your pockets, adventures fill your soul</a> </h3>
                     </div>
                     <div className="SingleJourney">
                         <img className='image' src={image2} alt="abc" />
                         <span>Oct 12, 2019</span>
-                        <a href="/"><h3>Travel is the only thing you buy that makes you richer</h3></a>
+                        <h3> <a href="/">Jobs fill your pockets, adventures fill your soul</a> </h3>
                     </div>
                     <div className="SingleJourney">
                         <img className='image' src={image3} alt="abc" />
                         <span>Oct 12, 2019</span>
-                        <a href="/"><h3>Travel. Your money will return. Your time won’t</h3></a>
+                        <h3> <a href="/">Jobs fill your pockets, adventures fill your soul</a> </h3>
                     </div>
                 </div>
             </div>

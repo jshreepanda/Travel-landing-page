@@ -7,11 +7,11 @@ const Header = () => {
             <div className="logo">TravelY</div>
             <nav className="navbar">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Destination</a></li>
-                    <li><a href="/">Blog</a></li>
-                    <li><a href="/">Pages</a></li>
-                    <li><a href="/">Contact</a></li>
+                    <li><a href="index.js">Home</a></li>
+                    <li><a href="#popular">Destinations</a></li>
+                    <li><a href="#newsletter">Newsletter</a></li>
+                    <li><a href="#stories">Stories</a></li>
+                    <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </header>

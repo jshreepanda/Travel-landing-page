@@ -5,7 +5,7 @@ const TravelVariation = () => {
     return (
         <div className="TravelVariation">
             <div className="wrapper">
-                <div className=" Variation ComfortableJourney">
+                <div className="Variation ComfortableJourney">
                     <i className="fas fa-train"></i>
                     <h3>Comfortable Journey</h3>
                     <p>A wonderful serenity has taken to the possession of my entire soul.</p>

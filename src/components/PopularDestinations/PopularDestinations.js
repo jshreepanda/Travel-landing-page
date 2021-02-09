@@ -9,7 +9,7 @@ import image6 from '../../images/7.jpg'
 
 const PopularDestinations = () => {
     return (
-        <div className="Populardestination">
+        <div className="Populardestination" id="popular">
             <div className="wrapper">
                 <div className="textarea">
                     <h2>Popular Destination</h2>

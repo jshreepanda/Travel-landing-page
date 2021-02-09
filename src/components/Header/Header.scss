@@ -6,6 +6,10 @@
     padding: 25px;
     box-shadow: -1px 14px 14px -15px rgba(0, 0, 0, 0.52);
     align-items: center;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
 }
 
 .logo {
@@ -19,10 +23,19 @@
         list-style: none;
         display: inline;
         margin-right: 12px;
+        @media (max-width: 900px) {
+            font-size: 10px;
+            margin-right: 12px;
+        }
     }
 
     a {
         text-decoration: none;
         color: #000;
+
+        &:hover {
+            background-color: #666363;
+            color: #fff;
+        }
     }
 }

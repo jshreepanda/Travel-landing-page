@@ -10,7 +10,7 @@ import image6 from '../../images/17.jpg'
 
 const PopularPlaces = () => {
     return (
-        <div className="PopularPlaces">
+        <div className="PopularPlaces" >
             <div className="wrapper">
                 <div className="textarea">
                     <h2>Popular Places</h2>

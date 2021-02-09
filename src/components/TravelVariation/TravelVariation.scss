@@ -16,7 +16,9 @@
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+
     @media (max-width: 900px) {
         flex-wrap: wrap;
     }
@@ -26,17 +28,15 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        min-width: 300px;
-        @media (max-width: 900px) {
-            min-width: 20%;
-            flex-wrap: wrap;
+        max-width: 33%;
+
+        @media (max-width: 1000px) {
+            max-width: 49%;
+            margin-bottom: 10px;
         }
 
-        @media (max-width: 550px) {
-            min-width: 40%;
-            flex-wrap: wrap;
-            margin-bottom: 10px;
-            padding: 10px;
+        @media (max-width: 700px) {
+            max-width: 100%;
         }
     }
 
