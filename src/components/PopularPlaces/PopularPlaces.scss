@@ -1,8 +1,5 @@
 .PopularPlaces {
-<<<<<<< HEAD
-=======
     background-color: yellowgreen;
->>>>>>> acbefebd857f9e961b7d0d1fd55896c04d98b6db
     padding: 100px 50px;
 
     @media (max-width: 550px) {
@@ -35,7 +32,6 @@
     .singlePlace {
         background-color: #fff;
         margin-bottom: 30px;
-<<<<<<< HEAD
         box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.05);
         max-width: 315px;
 
@@ -56,20 +52,6 @@
     .imageBox {
         position: relative;
 
-        // @media (max-width: 900px) {
-        //     width: 48%;
-        //     justify-content: space-around;
-        //     padding: 10px 30px;
-        // }
-
-=======
-    }
-
-    .imageBox {
-        max-width: 315px;
-        position: relative;
-
->>>>>>> acbefebd857f9e961b7d0d1fd55896c04d98b6db
         span {
             position: absolute;
             top: 18px;
@@ -89,13 +71,6 @@
         object-fit: cover;
         display: block;
 
-<<<<<<< HEAD
-=======
-        @media (max-width: 900px) {
-            width: 48%;
-        }
-
->>>>>>> acbefebd857f9e961b7d0d1fd55896c04d98b6db
         @media (max-width: 550px) {
             width: 100%;
         }
@@ -103,23 +78,16 @@
 
     img {
         width: 100%;
-<<<<<<< HEAD
         max-height: 250px;
-=======
-        height: 250px;
->>>>>>> acbefebd857f9e961b7d0d1fd55896c04d98b6db
         object-fit: cover;
         border-radius: 4px;
     }
 
     .textBox {
         padding: 10px;
-<<<<<<< HEAD
         @media (max-width: 680px) {
             padding: 2px;
         }
-=======
->>>>>>> acbefebd857f9e961b7d0d1fd55896c04d98b6db
     }
 }
 

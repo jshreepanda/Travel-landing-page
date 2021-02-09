@@ -61,11 +61,7 @@ const PopularPlaces = () => {
                     </div>
                 </div>
                 <div className='buttonHolder'>
-<<<<<<< HEAD
                     <a className='btn' href="/">More Places</a>
-=======
-                    <a className='btn' href="/">Popular Places</a>
->>>>>>> acbefebd857f9e961b7d0d1fd55896c04d98b6db
                 </div>
             </div>
         </div>
