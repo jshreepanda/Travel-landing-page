@@ -1,0 +1,63 @@
+.TravelVariation {
+    padding: 20px;
+    padding: 120px 50px;
+    background-color: #fff;
+
+    @media (max-width: 900px) {
+        padding: 40px 15px;
+    }
+
+    @media (max-width: 550px) {
+        padding: 20px 15px;
+    }
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 900px) {
+        flex-wrap: wrap;
+    }
+
+    .Variation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        min-width: 300px;
+        @media (max-width: 900px) {
+            min-width: 20%;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 550px) {
+            min-width: 40%;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+    }
+
+    .fas {
+        color: #f34848;
+        font-size: 50px;
+        display: inline;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+        font-size: 22px;
+        @media (max-width: 550px) {
+            margin-bottom: 10px;
+        }
+    }
+
+    p {
+        color: #6e6e6e;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+}

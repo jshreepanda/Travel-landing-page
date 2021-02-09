@@ -1,5 +1,4 @@
 .Populardestination {
-    background-color: pink;
     padding: 100px 50px;
 
     @media (max-width: 550px) {
@@ -7,6 +6,8 @@
     }
 
     .wrapper {
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
         max-width: 1000px;
         text-align: center;
